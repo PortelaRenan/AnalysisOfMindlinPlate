@@ -1,0 +1,11 @@
+figure('Name','Error vs N DOFs','NumberTitle','off');
+% Ferreira
+name_1 = 'Ferreira';
+X = [108 363 768 1323 2028];
+Y = [-1.947523 1.766373 2.453126 2.693432 2.804649];
+plot(X,Y,'-o')
+grid on 
+grid minor
+hold on
+xlabel('N DOFs')
+ylabel('||E_{r}|| (%)')
